@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" href="img/icon.jfif">
+    <title>Alehquin Store</title>
+</head>
+
+<body>
+    <div class="filter-wrapper">
+        <img src="./img/logo.jpg" alt="logo">
+        <h3>Alehquin Store</h3>
+        <div class="search-wrapper">
+            <input placeholder="search" id="input-pesquisar" />
+            <button id="search-button">buscar</button>
+        </div>
+    </div>
+    <div class="navigation">
+        <ul>
+            <a href="/#">
+                <span>Camisas</span>
+            </a>
+            <a href="/#">
+                <span>Bermudas</span>
+            </a>
+            <a href="/#">
+                <span class="icon">
+                    <ion-icon name="home-outline"></ion-icon>  
+                </span>
+                <span>Home</span>
+            </a>
+            <a href="/#">
+                <span>Moletons</span>
+            </a>
+            <a href="/#">
+                <span>Acessórios</span>
+            </a>
+        </ul>
+    </div>
+    <div>
+        <select id="filter-type-select" value="marca">
+            <option value="marca">marca</option>
+            <option value="modelo">modelo</option>
+        </select>
+    </div>
+    <div id="root">
+    </div>
+    <script src="./scripts/index.js" tyoe="module"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
